@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Všeobecné nastavenia" >
+        <CheckBoxPreference
+            android:key="points"
+            android:title="Vkladať body" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Upozorňovanie na pred koncom prezentácie" >
+        <CheckBoxPreference
+            android:key="sound"
+            android:title="Zapnúť zvuk" />
+        <CheckBoxPreference
+            android:key="vibration"
+            android:title="Zapnúť vibrovanie" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Nastavenie konfigurovateľného exportu" >
+        
+                <CheckBoxPreference
+            android:key="empty_col"
+            android:title="Používať prázdne stĺpce"
+            android:summary="Nastaví, či sa budú nenastavené stĺpce zobrazovať ako prázdne" />
+    
+    <PreferenceScreen
+        android:key="konfigur_export"
+        android:summary="Umožní výber jednotlivých stĺpcov tabuliek, ktoré sa majú exportovať"
+        android:title="Výber stĺpcov" >
+
+
+    
+        <PreferenceScreen
+            android:key="stlpce_akcie"
+            android:title="Stĺpce akcie" >
+            <PreferenceCategory android:title="Stĺpce akcie" >
+                <CheckBoxPreference
+                    android:key="a_name"
+                    android:title="Meno" />
+                <CheckBoxPreference
+                    android:key="a_organizators"
+                    android:title="Organizátori" />
+                <CheckBoxPreference
+                    android:key="a_location"
+                    android:title="Miesto" />
+                <CheckBoxPreference
+                    android:key="a_begin"
+                    android:title="Začiatok" />
+                <CheckBoxPreference
+                    android:key="a_dur_blocks"
+                    android:title="Trvanie blokov" />
+                <CheckBoxPreference
+                    android:key="a_dur_pres"
+                    android:title="Trvanie prezentácií" />
+                <CheckBoxPreference
+                    android:key="a_warning"
+                    android:title="Upozornenie" />
+                <CheckBoxPreference
+                    android:key="a_notes"
+                    android:title="Poznámky" />                
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="stlpce_prezentacie"
+            android:title="Stĺpce prezentácie" >
+            <PreferenceCategory android:title="Stĺpce prezentácie" >
+                <CheckBoxPreference
+                    android:key="p_begin"
+                    android:title="Začiatok" />
+                <CheckBoxPreference
+                    android:key="p_name"
+                    android:title="Meno" />
+                <CheckBoxPreference
+                    android:key="p_authors"
+                    android:title="Autori" />
+                <CheckBoxPreference
+                    android:key="p_dur_blocks"
+                    android:title="Trvanie blokov" />
+                <CheckBoxPreference
+                    android:key="p_dur_pres"
+                    android:title="Trvanie prezentácií" />
+                <CheckBoxPreference
+                    android:key="p_points"
+                    android:title="Body" />
+                <CheckBoxPreference
+                    android:key="p_notes"
+                    android:title="Poznámky" />   
+            </PreferenceCategory>
+        </PreferenceScreen>
+
+</PreferenceScreen>
+
+</PreferenceCategory>
+
+</PreferenceScreen>

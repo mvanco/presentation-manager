@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/n_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/n_button_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSubmit"
+            android:text="@string/submit"
+            android:textSize="25sp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/n_button_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCancel"
+            android:text="@string/cancel"
+            android:textSize="25sp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/n_notes"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/n_buttons"
+        android:inputType="text|textMultiLine"
+        android:gravity="top" >
+    </EditText>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/red"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/duration_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:text="Trvanie"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/duration_title"
+        android:layout_marginLeft="30dp"
+        android:textSize="25sp" />
+    
+     <TextView
+        android:id="@+id/min_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/duration"
+        android:layout_alignBaseline="@id/duration"
+        android:text=" min."
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+    
+
+    <TextView
+        android:id="@+id/slides_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/duration"
+        android:text="Počet slidov"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/slides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/slides_title"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <eu.matusi.manager.dragndrop.DragNDropListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/buttons">
+    </eu.matusi.manager.dragndrop.DragNDropListView>
+
+    <LinearLayout
+        android:id="@id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/ap_button_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:onClick="onSubmit"
+            android:text="@string/submit"
+            android:textSize="25sp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/ap_button_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:onClick="onCancel"
+            android:text="@string/cancel"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</RelativeLayout>

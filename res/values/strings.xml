@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Presentation Manager</string>
+    <string name="organizators_title">Organizátori</string>
+    <string name="locations_title">Miesto</string>
+    <string name="begin_title">Začiatok*</string>
+    <string name="end_title">Koniec</string>
+    <string name="add_title">Pridať akciu</string>
+    <string name="mod_1">Organizačný mód</string>
+    <string name="mod_2">Prezentačný mód</string>
+    <string name="submit">OK</string>
+    <string name="name_title">Názov*</string>
+    <string name="notes_title">Poznámky</string>
+    <string name="time_title">Čas</string>
+    <string name="from_title">Od</string>
+    <string name="to_title">Do</string>
+    <string name="cancel">Zruš</string>
+    <string name="description_slider">Rukoveť na slider</string>
+    <string name="time">Čas</string>
+    <string name="date">Dátum</string>
+    <string name="star">*</string>
+    <string name="actions_delete_question">Naozaj chcete nenávratne vymazať túto akciu?</string>
+    <string name="authors_title">Autori</string>
+    <string name="datetime_title">Začiatok</string>
+    <string name="duration_title">Trvanie blokov*</string>
+    <string name="duration_help">(v minutách)</string>
+    <string name="time_move">Presunúť na čas</string>
+    <string name="end_move">Presunúť na koniec</string>
+    <string name="edit_presentation">Upraviť prezentáciu</string>
+    <string name="play_button">Tlačítko na prehrávanie</string>
+    <string name="slide_title">Číslo slidu: </string>
+    <string name="warning_title">Upozorniť</string>
+    <string name="add_break_dialog">Pridať prestávku</string>
+    <string name="checkbox_title">Použiť z poľa Autori</string>
+    <string name="reserved_title">Trvanie prezentácií*</string>
+    <string name="duration_end">min.</string>
+    <string name="points_title">Body</string>
+    <string name="range">Rozsah*</string>
+    <string name="edit_break_dialog">Upraviť prestávku</string>
+    <string name="export_title">Export</string>
+    <string name="filename_title">Názov súboru</string>
+    <string name="import_title">Import</string>
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <string name="err">Error</string>
+    <string name="before_unknown">\? min. pred koncom</string>
+    <string name="warning_end">min. pred skončením</string>
+    <string name="image_content_description">obrazok</string>
+    <string name="presentations_delete_question">Naozaj chcete odstrániť tento blok?</string>
+    <string name="cp_points_title">Body</string>
+    <string name="duration">Trvanie*</string>
+
+</resources>
